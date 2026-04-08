@@ -2,10 +2,10 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: GPU kernels, PyTorch extensions, and AI performance experiments.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [cuda, benchmarks]
 horizontal: false
 ---
 
