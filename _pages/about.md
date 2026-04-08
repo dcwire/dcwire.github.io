@@ -2,33 +2,46 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Software Engineer · GPU Enthusiast · Chasing nanoseconds at the metal
 
 profile:
-  align: left
+  align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
-
-# selected_papers: true # includes a list of papers marked as "selected={true}"
-# social: true # includes social icons at the bottom of the page
-#
-# announcements:
-#   enabled: true # includes a list of news items
-#   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-#   limit: 5 # leave blank to include all the news in the `_news` folder
+    <p>Software Engineer</p>
+    <p>📍 [Your City]</p>
+    <p>✉️ your.email@domain.com</p>
 
 latest_posts:
   enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  scrollable: true
+  limit: 3
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+## Hello, I'm Anas
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I'm a software engineer obsessed with what happens at the lowest levels of the GPU stack — where arithmetic throughput, memory bandwidth, and warp scheduling collide to determine whether a kernel runs fast or wastes silicon. Right now I'm deep in the world of AI workloads: benchmarking, profiling, and squeezing performance out of the hardware that makes modern ML tick.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+### What I Work On
+
+My current focus sits at the intersection of **GPU kernel development** and **AI workload performance**:
+
+- Writing and optimizing CUDA/GPU kernels — tiling strategies, shared memory layouts, warp divergence, occupancy tuning
+- Profiling AI workloads (training and inference) with tools like Nsight Compute and Nsight Systems to understand where cycles actually go
+- Evaluating how different model architectures and batch configurations stress the hardware differently — memory-bound vs. compute-bound regimes, roofline analysis
+- Experimenting with kernel fusion, custom attention implementations, and quantized inference paths
+
+### How I Think About Performance
+
+I don't trust intuition when it comes to GPUs. The hardware is too counterintuitive — what looks fast in code can thrash the L2, and what looks slow can pipeline beautifully. My process is: **measure first, hypothesize second, optimize third**. A profiler trace tells more truth than any benchmark number in isolation.
+
+What genuinely excites me is the gap between theoretical peak FLOPS and what workloads actually achieve. Closing that gap — even partially — requires understanding the full picture: the ISA, the memory hierarchy, the scheduler, the interconnect. That depth is what I keep chasing.
+
+### Beyond Kernels
+
+When I'm not reading PTX or staring at roofline plots, I'm usually reading about computer architecture, following developments in hardware design, or finding new workloads to throw at the GPU and see what breaks.
+
+---
+
+If you're working on GPU performance, AI systems, or anything low-level and want to compare notes — reach out.
