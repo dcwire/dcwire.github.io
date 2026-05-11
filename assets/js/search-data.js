@@ -30,11 +30,11 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-writing-your-first-cuda-kernel-what-they-don-39-t-tell-you",
+        },{id: "post-writing-gpt2-from-scratch-in-pytorch",
         
-          title: "Writing Your First CUDA Kernel — What They Don&#39;t Tell You",
+          title: "Writing GPT2 from scratch in pytorch",
         
-        description: "The mental model behind thread hierarchy, memory spaces, and why your first kernel is almost certainly memory-bound",
+        description: "Deconstructing the GPT-2 architecture to justify the transition from standard frameworks to manual CUDA kernel optimization and automated compiler fusion",
         section: "Posts",
         handler: () => {
           
@@ -46,9 +46,9 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "projects-tiled-matrix-multiplication-in-cuda",
-          title: 'Tiled Matrix Multiplication in CUDA',
-          description: "Hand-written CUDA kernel exploiting shared memory tiling to approach cuBLAS throughput on SGEMM",
+            },},{id: "projects-gpt2-implementation-in-pytorch",
+          title: 'GPT2 implementation in pytorch',
+          description: "Hand written pytorch implementation of gpt2 from Andrej Karpathy&#39;s popular video",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-custom-cuda-extension-for-pytorch",
@@ -61,6 +61,11 @@ ninja.data = [{
           description: "Systematic profiling of training and inference workloads across model architectures using Nsight tools and roofline analysis",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
+            },},{id: "projects-tiled-matrix-multiplication-in-cuda",
+          title: 'Tiled Matrix Multiplication in CUDA',
+          description: "Hand-written CUDA kernel exploiting shared memory tiling to approach cuBLAS throughput on SGEMM",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/4_project/";
             },},{
         id: 'social-cv',
         title: 'CV',
