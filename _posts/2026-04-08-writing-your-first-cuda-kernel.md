@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Writing Your First CUDA Kernel — What They Don't Tell You
-date: 2026-04-08 00:00:00
-description: The mental model behind thread hierarchy, memory spaces, and why your first kernel is almost certainly memory-bound
-tags: cuda gpu performance
-categories: kernels
+title: Writing GPT2 from scratch in pytorch
+date: 2026-05-01 00:00:00
+description: Deconstructing the GPT-2 architecture to justify the transition from standard frameworks to manual CUDA kernel optimization and automated compiler fusion
+tags: pytorch llm attention
+categories: pytorch
 featured: true
 ---
 

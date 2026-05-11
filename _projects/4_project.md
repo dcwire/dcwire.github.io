@@ -1,9 +1,9 @@
 ---
 layout: page
-title: GPT2 implementation in pytorch
-description: Hand written pytorch implementation of gpt2 from Andrej Karpathy's popular video
-importance: 1
-category: pytorch
+title: Tiled Matrix Multiplication in CUDA
+description: Hand-written CUDA kernel exploiting shared memory tiling to approach cuBLAS throughput on SGEMM
+importance: 4
+category: cuda
 ---
 
 > **Status:** Work in progress — fill this in as you build it out.
