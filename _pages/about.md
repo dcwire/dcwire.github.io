@@ -2,16 +2,15 @@
 layout: about
 title: about
 permalink: /
-subtitle: Software Engineer · GPU Enthusiast · Chasing nanoseconds at the metal
+subtitle: Software Engineer · GPU Enthusiast
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Software Engineer</p>
-    <p>📍 [Your City]</p>
-    <p>✉️ your.email@domain.com</p>
+    <p>📍 Hyderabad, Telangana, India</p>
+    <p>✉️ anaswork986.15@gmail.com</p>
 
 latest_posts:
   enabled: true
@@ -21,7 +20,7 @@ latest_posts:
 
 ## Hello, I'm Anas
 
-I'm a software engineer obsessed with what happens at the lowest levels of the GPU stack — where arithmetic throughput, memory bandwidth, and warp scheduling collide to determine whether a kernel runs fast or wastes silicon. Right now I'm deep in the world of AI workloads: benchmarking, profiling, and squeezing performance out of the hardware that makes modern ML tick.
+I'm a software engineer interested with what happens at the lowest levels of the GPU stack — where arithmetic throughput, memory bandwidth, and warp scheduling collide to determine whether a kernel runs fast or wastes silicon and how software can be optimized so that it helps run ML models faster.
 
 ### What I Work On
 
