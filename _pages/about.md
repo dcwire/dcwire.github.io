@@ -6,7 +6,7 @@ subtitle: Software Engineer · GPU Enthusiast
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>📍 Hyderabad, Telangana, India</p>
